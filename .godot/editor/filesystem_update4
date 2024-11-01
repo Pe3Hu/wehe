@@ -1,0 +1,24 @@
+res://entities/world/world.tscn
+res://entities/bourse/bourse.tscn
+res://entities/bourse/bourse_resource.gd
+res://entities/universe/bourse.tscn
+res://entities/universe/bourse_resource.gd
+res://entities/universe/universe.tscn
+res://entities/universe/universe.gd
+res://entities/god/god.tscn
+res://entities/god/god.gd
+res://entities/object/object.tscn
+res://entities/object/object.gd
+res://entities/object/subject .tscn
+res://entities/subject/subject .tscn
+res://entities/subject/subject.tscn
+res://entities/domain/domain.tscn
+res://entities/domain/domain.gd
+res://entities/world/world.gd
+res://entities/battleground/battleground.tscn
+res://entities/battleground/battleground.gd
+res://shaders/highlight effect 2d.gdshader
+res://shaders/highlight canvas item.gdshader
+res://shaders/2D Controlled Shine Highlight With Angle Adjustment.gdshader
+res://shaders/2D Item Highlight Shader.gdshader
+res://entities/subject/subject.gd

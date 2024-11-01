@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cj4luaulws3ey"]
+
+[ext_resource type="Script" path="res://entities/battleground/battleground.gd" id="1_kmo4g"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0uytx"]
+
+[node name="Battleground" type="PanelContainer"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_0uytx")
+script = ExtResource("1_kmo4g")
+
+[node name="Gods" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 0
+alignment = 1

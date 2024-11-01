@@ -1,0 +1,49 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1730458610
+::res://assets/::1730455334
+default_env.tres::Environment::-1::1690116911::0::1::::<><>::
+icon.png::CompressedTexture2D::2432420761471245026::1690116911::1730455334::1::::<><>::
+icon.svg::CompressedTexture2D::9162371498834860976::1690116911::1730455334::1::::<><>::
+README.md::TextFile::-1::1690795285::0::1::::<><>::
+::res://assets/fonts/::1730455192
+::res://assets/fonts/digital/::1730455334
+Inter-Black.ttf::FontFile::2023361649885781834::1694723238::1730455334::1::::<><>::
+::res://assets/fonts/letter/::1730455334
+Roboto-Bold.ttf::FontFile::7183128479095054959::1663817230::1730455334::1::::<><>::
+Roboto-Light.ttf::FontFile::2934334192827154238::1663817230::1730455334::1::::<><>::
+Walter-Bold.ttf::FontFile::6104160909452173604::1570526552::1730455334::1::::<><>::
+::res://entities/::1730456854
+::res://entities/battleground/::1730457695
+battleground.gd::GDScript::-1::1730457009::0::1::::Battleground<>PanelContainer<>::
+battleground.tscn::PackedScene::5465111549220773472::1730457695::0::1::::<><>::res://entities/battleground/battleground.gd
+::res://entities/domain/::1730457695
+domain.gd::GDScript::-1::1730456570::0::1::::Domain<>PanelContainer<>::
+domain.tscn::PackedScene::5205097414250658908::1730457695::0::1::::<><>::res://entities/domain/domain.gd
+::res://entities/empty/::1730456851
+empty.tscn::PackedScene::5291738769131499439::1728210089::0::1::::<><>::
+::res://entities/god/::1730457694
+god.gd::GDScript::-1::1730457504::0::1::::God<>PanelContainer<>::
+god.tscn::PackedScene::1390981080546434419::1730457694::0::1::::<><>::res://entities/god/god.gd<>uid://cgfngugs7dtqy::::res://entities/domain/domain.tscn
+::res://entities/subject/::1730458612
+subject.gd::GDScript::-1::1730456111::0::1::::Subbject<>PanelContainer<>::
+subject.tscn::PackedScene::2855676132136170501::1730458612::0::1::::<><>::res://entities/subject/subject.gd<>res://shaders/highlight effect 2d.gdshader<>uid://dvyrrin65v5lb::::res://entities/subject/images/ring.png
+::res://entities/subject/images/::1730456715
+ring.png::CompressedTexture2D::8683835822667538199::1726496811::1730456715::1::::<><>::
+::res://entities/token/::1730455192
+token.gd::GDScript::-1::1728200303::0::1::::Token<>TextureRect<>::
+token.tscn::PackedScene::1552558293137536665::1728200113::0::1::::<><>::res://entities/token/token.gd<>res://entities/token/token_resource.gd<>uid://33eqagvh85us::::res://assets/fonts/digital/Inter-Black.ttf
+token_resource.gd::GDScript::-1::1728087076::0::1::::TokenResource<>Resource<>::
+::res://entities/token/images/::1730455334
+coin.png::CompressedTexture2D::5971527734147499551::1728081656::1730455334::1::::<><>::
+::res://entities/universe/::1730457694
+universe.gd::GDScript::-1::1730457550::0::1::::Universe<>PanelContainer<>::
+universe.tscn::PackedScene::8203182980367346730::1730457694::0::1::::<><>::res://entities/universe/universe.gd<>uid://cj4luaulws3ey::::res://entities/battleground/battleground.tscn
+::res://entities/world/::1730457694
+world.gd::GDScript::-1::1730456490::0::1::::World<>Node<>::
+world.tscn::PackedScene::8246655032211948728::1730457694::0::1::::<><>::res://entities/world/world.gd<>uid://do4xhwky8pgte::::res://entities/universe/universe.tscn
+::res://script/::1730455192
+Global.gd::GDScript::-1::1729091676::0::1::::<>Node<>::
+::res://shaders/::1730458612
+2D Controlled Shine Highlight With Angle Adjustment.gdshader::Shader::-1::1730458612::0::1::::<><>::
+highlight canvas item.gdshader::Shader::-1::1730458612::0::1::::<><>::
+highlight effect 2d.gdshader::Shader::-1::1730458612::0::1::::<><>::

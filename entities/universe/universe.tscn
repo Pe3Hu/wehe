@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://do4xhwky8pgte"]
+
+[ext_resource type="Script" path="res://entities/universe/universe.gd" id="1_35w8p"]
+[ext_resource type="PackedScene" uid="uid://cj4luaulws3ey" path="res://entities/battleground/battleground.tscn" id="3_g1648"]
+
+[node name="Universe" type="PanelContainer"]
+script = ExtResource("1_35w8p")
+
+[node name="HBox" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="Gods" type="HBoxContainer" parent="HBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Battlegrounds" type="VBoxContainer" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Battleground" parent="VBox/Battlegrounds" instance=ExtResource("3_g1648")]
+layout_mode = 2
